@@ -1,5 +1,5 @@
 # ekostat_data
-data prepared with ekostat_calculator.
+Data prepared with ekostat_calculator.
 
 The data contains one point per observation. Observations are identified by the SAMPLE_ID column. Data is compiled from a download from [sharkweb](https://sharkweb.smhi.se/)
 
