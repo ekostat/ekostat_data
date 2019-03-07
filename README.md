@@ -2,7 +2,7 @@
 ## Data
 Data är hämtade från datavärdskapet för Marina miljöövervakningsdata på [SMHI](www.smhi.se), [sharkweb](https://www.smhi.se/klimatdata/oceanografi/havsmiljodata/marina-miljoovervakningsdata)
 
-Uttaget från sharkweb har körts genom de första stegen i ekostat_calculator för att ta fram grunddata för beräkning av ekologiskstatus enligt bedömningsgrunderna för kustvatten i HVMFS 2013:19. Alla data finns samlade i filen all_data.txt
+Uttaget från sharkweb har körts genom de första stegen i ekostat_calculator för att ta fram grunddata för beräkning av ekologiskstatus enligt bedömningsgrunderna för kustvatten i HVMFS 2013:19. 
 
 Filen WATERS_export.txt innehåller en punkt per mättillfälle för varje parameter och endast ifrån de månader som specificeras i HVMFS 2013:19 för respektive parameter. Mättillfille identifieras genom kolumnan SAMPLE_ID. 
 
