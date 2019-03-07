@@ -10,15 +10,15 @@ Filen WATERS_export.txt innehåller en punkt per mättillfälle för varje param
 För varje datum plockas utifrån typområde och stationsdjup antingen ytvärde (0 m) eller integreratvärde 0-10 m: 
 
 **Ytvärde**
-1.	som ytvärde räknas i första hand flaskdata < 2m från flaskdata
-2.	i andra hand tas data från slangprov med maxdjup < 2m
-3.	i tredje hand tas data data från den datatyp som har rapporterat data på minsta djup. Detta ger kommentaren *Expert judgement not surface sample*.
+*	som ytvärde räknas i första hand flaskdata < 2m från flaskdata
+*	i andra hand tas data från slangprov med maxdjup < 2m
+*	i tredje hand tas data data från den datatyp som har rapporterat data på minsta djup. Detta ger kommentaren *Expert judgement not surface sample*.
 
 **Integrerat värde**:
-1.	i första hand tas data från slangprovtagning mellan (0-1 m) – (9-11 m)
-2.	i andra hand tas data från beräknat integrerat värde från flaskdata mellan (0-1 m) – (9-11 m)
-3.	i tredje hand tas data från slangprovtagning med maxdjup <11 m. Detta ger kommentaren *Expert judgement. Integrated data to shallow.*
-4.	i fjärde hand tas flaskdata från det grundaste djup (< 10 m) som det rapporterats på. Detta ger kommentaren *Expert judgement to shallow data from discrete sample.*
+*	i första hand tas data från slangprovtagning mellan (0-1 m) – (9-11 m)
+*	i andra hand tas data från beräknat integrerat värde från flaskdata mellan (0-1 m) – (9-11 m)
+*	i tredje hand tas data från slangprovtagning med maxdjup <11 m. Detta ger kommentaren *Expert judgement. Integrated data to shallow.*
+* i fjärde hand tas flaskdata från det grundaste djup (< 10 m) som det rapporterats på. Detta ger kommentaren *Expert judgement to shallow data from discrete sample.*
 
 ### Syre
 I vattenförekomsten Askirkefjärden har fem tillfällen med djup 112 m ändrats till 11.2 m. Detta ska uppdateras i sharkweb till rätt djup.
