@@ -36,7 +36,7 @@ Typomr | MS_CD	| Vattenförekomst | Station | Vattenförekomst i HVMFS 2013:19
 5	|WA12817029	|N Öresunds kustvatten	|ÖVF 1:1 HÖGANÄS	|N Öresunds kustvatten (Kullen)
 5	|WA99366628	|Skäldervikens kustvatten	|SKÄLDERVIKEN	|Skälderviken (S2)
 5	|WA52813004	|Skälderviken	|S-5	|Skälderviken (S5)
-6	|WA61585185 	|N m Öresunds kustvatten	W LANDSKRONA	|N m Öresunds kustvatten (W-Landskrona)
+6	|WA61585185 	|N m Öresunds kustvatten	| W LANDSKRONA	|N m Öresunds kustvatten (W-Landskrona)
 12n	|WA68382937	|Kanholmsfjärden	|S86 KANHOLMSFJÄRDEN	|Kanholmsfjärden (Kanholmsfjärden)
 24	|WA46408217	|Lilla Värtan	|KARANTÄNBOJEN	|Tranholmenområdet (Ekhagen)
 24	|WA36243146	|Skurusundet	|LÄNNERSTASUNDET	|Skurusundet (Lännerstadssundet)
