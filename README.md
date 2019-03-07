@@ -1,6 +1,6 @@
 # ekostat_data
 ## Data
-Data är hämtade från datavärdskapet för Marina miljöövervakningsdata på [SMHI](www.smhi.se), [sharkweb[(https://www.smhi.se/klimatdata/oceanografi/havsmiljodata/marina-miljoovervakningsdata)
+Data är hämtade från datavärdskapet för Marina miljöövervakningsdata på [SMHI](www.smhi.se), [sharkweb](https://www.smhi.se/klimatdata/oceanografi/havsmiljodata/marina-miljoovervakningsdata)
 
 Data har körts genom de första stegen i ekostat_calculator för att ta fram grunddata för beräkning av ekologiskstatus enligt bedömningsgrunderna för kustvatten i HVMFS 2013:19.
 
