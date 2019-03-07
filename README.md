@@ -2,13 +2,14 @@
 ## Data
 Data är hämtade från datavärdskapet för Marina miljöövervakningsdata på [SMHI](www.smhi.se), [sharkweb](https://www.smhi.se/klimatdata/oceanografi/havsmiljodata/marina-miljoovervakningsdata)
 
-Data har körts genom de första stegen i ekostat_calculator för att ta fram grunddata för beräkning av ekologiskstatus enligt bedömningsgrunderna för kustvatten i HVMFS 2013:19.
+Uttaget från sharkweb har körts genom de första stegen i ekostat_calculator för att ta fram grunddata för beräkning av ekologiskstatus enligt bedömningsgrunderna för kustvatten i HVMFS 2013:19. Alla data finns samlade i filen all_data.txt
 
-Data innehåller en punkt per mättillfälle och endast ifrån de månader som specificeras i HVMFS 2013:19 för respektive parameter. Mättillfille identifieras genom kolumnan SAMPLE_ID. 
+Filen WATERS_export.txt innehåller en punkt per mättillfälle för varje parameter och endast ifrån de månader som specificeras i HVMFS 2013:19 för respektive parameter. Mättillfille identifieras genom kolumnan SAMPLE_ID. 
 
 ### Klorofyll
 För varje datum plockas utifrån typområde och stationsdjup antingen ytvärde (0 m) eller integreratvärde 0-10 m: 
-**Ytvärde**:
+
+**Ytvärde**
 1.	som ytvärde räknas i första hand flaskdata < 2m från flaskdata
 2.	i andra hand tas data från slangprov med maxdjup < 2m
 3.	i tredje hand tas data data från den datatyp som har rapporterat data på minsta djup. Detta ger kommentaren *Expert judgement not surface sample*.
