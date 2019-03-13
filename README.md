@@ -21,9 +21,10 @@ För varje datum plockas utifrån typområde och stationsdjup antingen ytvärde 
 * i fjärde hand tas flaskdata från det grundaste djup (< 10 m) som det rapporterats på. Detta ger kommentaren *Expert judgement to shallow data from discrete sample.*
 
 ### Syre
-I vattenförekomsten Askirkefjärden har fem tillfällen med djup 112 m ändrats till 11.2 m. Detta ska uppdateras i sharkweb till rätt djup.
 Endast syre data från djupaste mätningen i varje profil tas med och endast data från djup som ligger max 10 ovanför max djup i vattenförekomsten. Maxdjupet hämtas från hypsografen för vattenförekomsten. Då hypsograferna inte alltid får med det faktiska maxdjupået så förekommer ibland mtädjup större än hypsografens maxdjup, dessa data kommer naturligtvis också med. 
-Vattenförekomst Vivassen har ett rapporterat mätdjup på 82.5 m 2017-06-12, detta är inte korrekt och kommer att rättas upp, men är i denna version ej rättad.
+
+Vattenförekomst Vivassen har ett rapporterat mätdjup på 82.5 m 2017-06-12, detta är inte korrekt och kommer att rättas upp, men är i denna version ej rättad. I vattenförekomsten Askrikefjärden har fem tillfällen med djup 112 m ändrats till 11.2 m. Detta ska uppdateras i sharkweb till rätt djup.
+
 Procent påverkat area beräknas och visas för att vattenförekomster och stationer, men ska endast användas för klassning i de vattenförekomster som specificeras i föreskriften (HVMFS 2013:19). Vilka vattenförekomster detta gäller och vilka stationer som använts visas nedan i tabell.
 
 Typomr | MS_CD	| Vattenförekomst | Station | Vattenförekomst i HVMFS 2013:19
