@@ -52,5 +52,5 @@ Siktdjup är hämtat för varje provtagningstillfälle
 BQI är hämtat från varje provtagningstillfälle
 
 ## WATERS Statusklassning
-De data som finns här har sedan använts för att beräkna status och osäkerhet och presenteras i WATERS gränssnitt för detta, [http://3.120.131.94/ekostat/]
+De data som finns här har sedan använts för att beräkna status och osäkerhet och presenteras i WATERS gränssnitt för detta, http://3.120.131.94/ekostat/
 
