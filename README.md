@@ -47,10 +47,11 @@ Typomr | MS_CD	| Vattenförekomst | Station | Vattenförekomst i HVMFS 2013:19
 Näringsämne och salt är medelvärdesbildat 0-10 m vid varje provtagningstillfälle.
 
 ### Siktdjup
-Siktdjup är hämtat för varje provtagningstillfälle
+Siktdjup är hämtat för varje provtagningstillfälle.
 
 ### BQI
-BQI är hämtat från varje provtagningstillfälle
+BQI är hämtat från varje provtagningstillfälle.
+Alla BQI-värden är beräknade av datavärd (SMHI) och har nyligen kontrollerats av utomstående expertar. Alla värdena följer föreskriften HVMFS 2013_19.
 
 ## WATERS Statusklassning
 De data som finns här har sedan använts för att beräkna status och osäkerhet och presenteras i WATERS gränssnitt för detta, http://3.120.131.94/ekostat/
