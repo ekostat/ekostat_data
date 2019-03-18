@@ -26,8 +26,6 @@ För varje datum plockas utifrån typområde och stationsdjup antingen ytvärde 
 ### Syre
 Endast syre data från djupaste mätningen i varje profil tas med och endast data från djup som ligger max 10 ovanför max djup i vattenförekomsten. Maxdjupet hämtas från hypsografen för vattenförekomsten. Då hypsograferna inte alltid får med det faktiska maxdjupået så förekommer ibland mtädjup större än hypsografens maxdjup, dessa data kommer naturligtvis också med. 
 
-Vattenförekomst Vivassen har ett rapporterat mätdjup på 82.5 m 2017-06-12, detta är inte korrekt och kommer att rättas upp, men är i denna version ej rättad.
-
 Procent påverkad area beräknas och visas för alla stationer, men ska endast användas för klassning i de vattenförekomster som specificeras i föreskriften (HVMFS 2013:19). Vilka vattenförekomster detta gäller och vilka stationer som använts visas nedan i tabell.
 
 Typomr | MS_CD	| Vattenförekomst | Station | Vattenförekomst i HVMFS 2013:19
