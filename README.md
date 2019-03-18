@@ -1,6 +1,6 @@
 # ekostat_data
 ## Data
-Data är hämtade från datavärdskapet för Marina miljöövervakningsdata på [SMHI](www.smhi.se), [sharkweb](https://www.smhi.se/klimatdata/oceanografi/havsmiljodata/marina-miljoovervakningsdata). <br>Senaste uttaget gjordes 2019-03-05.
+Data är hämtade från datavärdskapet för Marina miljöövervakningsdata på [SMHI](www.smhi.se), [sharkweb](https://www.smhi.se/klimatdata/oceanografi/havsmiljodata/marina-miljoovervakningsdata). <br>Senaste uttaget gjordes 2019-03-05. De data som finns här har sedan använts för att beräkna status och osäkerhet vilket presenteras i WATERS gränssnitt för detta, http://3.120.131.94/ekostat/
 
 Uttaget från sharkweb har körts genom de första stegen i [ekostat_calculator](https://github.com/ekostat/ekostat_calculator) för att ta fram grunddata för beräkning av ekologiskstatus enligt bedömningsgrunderna för kustvatten i HVMFS 2013:19. 
 
@@ -52,7 +52,3 @@ Siktdjup är hämtat för varje provtagningstillfälle.
 ### BQI
 BQI är hämtat från varje provtagningstillfälle.
 Alla BQI-värden är beräknade av datavärd (SMHI) och har nyligen kontrollerats av utomstående expertar. Alla värdena följer föreskriften HVMFS 2013_19.
-
-## WATERS Statusklassning
-De data som finns här har sedan använts för att beräkna status och osäkerhet och presenteras i WATERS gränssnitt för detta, http://3.120.131.94/ekostat/
-
