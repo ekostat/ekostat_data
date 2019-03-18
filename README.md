@@ -28,7 +28,7 @@ Endast syre data från djupaste mätningen i varje profil tas med och endast dat
 
 Procent påverkad area beräknas och visas för alla stationer, men ska endast användas för klassning i de vattenförekomster som specificeras i föreskriften (HVMFS 2013:19). Vilka vattenförekomster detta gäller och vilka stationer som använts visas nedan i tabell.
 
-Typomr | MS_CD	| Vattenförekomst | Station | Vattenförekomst i HVMFS 2013:19
+Typomr | MS_CD	| Vattenförekomst | Station | Vattenförekomst (station) i HVMFS 2013:19
 ------ | ------ | --------------- | ------- | --------------------------------
 2	|WA43270311	|Havstensfjorden	|HAVSTENSFJORD	|Havstensfjord (Havstensfjord)
 2	|WA23971566	|Koljö fjord	|KOLJÖFJORD	|Koljöfjord (Koljöfjord)
