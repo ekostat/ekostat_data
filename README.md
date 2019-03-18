@@ -1,10 +1,13 @@
 # ekostat_data
 ## Data
-Data är hämtade från datavärdskapet för Marina miljöövervakningsdata på [SMHI](www.smhi.se), [sharkweb](https://www.smhi.se/klimatdata/oceanografi/havsmiljodata/marina-miljoovervakningsdata). <br>Senaste uttaget gjordes 2019-03-05. De data som finns här har sedan använts för att beräkna status och osäkerhet vilket presenteras i WATERS gränssnitt för detta, http://3.120.131.94/ekostat/
+Data är hämtade från datavärdskapet för Marina miljöövervakningsdata på [SMHI](www.smhi.se), [sharkweb](https://www.smhi.se/klimatdata/oceanografi/havsmiljodata/marina-miljoovervakningsdata). <br>Senaste uttaget gjordes 2019-03-15. De data som finns här används sedan för att beräkna status och osäkerhet vilket presenteras i WATERS gränssnitt för detta, http://3.120.131.94/ekostat/. <br>**De data som ligger till grund för nuvarande statusberäkningar i verktyget finns [**här**](https://github.com/ekostat/ekostat_data/tree/2c6bea7c0d762316a56919e5fa2bfa4a19ae3069).**<br> Inom kort finns beräkningar med de nya data tillgängliga i WATERS gränssnitt.
 
 Uttaget från sharkweb har körts genom de första stegen i [ekostat_calculator](https://github.com/ekostat/ekostat_calculator) för att ta fram grunddata för beräkning av ekologiskstatus enligt bedömningsgrunderna för kustvatten i HVMFS 2013:19. 
 
 Filen WATERS_export.txt innehåller en punkt per mättillfälle för varje parameter och endast ifrån de månader som specificeras i HVMFS 2013:19 för respektive parameter. Mättillfille identifieras genom kolumnan SAMPLE_ID. 
+
+#### Nytt
+I vissa vattenförekomster på västkusten vill man ta med stationer i intilliggande vattenförekomster i statusberäkningen. Detta är löst genom att data har duplicerats men fått vattenförekomst-ID (MS_CD) för den vattenförekomst som stationen ska inkluderas i. Därav finns en kolumn som heter WB_ID_original. Om det är något mer län där man behöver lägga till stationer från intilliggande vattenförekomster, kontakta Lena Viktorsson på SMHI.
 
 ### Klorofyll
 För varje datum plockas utifrån typområde och stationsdjup antingen ytvärde (0 m) eller integreratvärde 0-10 m: 
@@ -23,9 +26,9 @@ För varje datum plockas utifrån typområde och stationsdjup antingen ytvärde 
 ### Syre
 Endast syre data från djupaste mätningen i varje profil tas med och endast data från djup som ligger max 10 ovanför max djup i vattenförekomsten. Maxdjupet hämtas från hypsografen för vattenförekomsten. Då hypsograferna inte alltid får med det faktiska maxdjupået så förekommer ibland mtädjup större än hypsografens maxdjup, dessa data kommer naturligtvis också med. 
 
-Vattenförekomst Vivassen har ett rapporterat mätdjup på 82.5 m 2017-06-12, detta är inte korrekt och kommer att rättas upp, men är i denna version ej rättad. I vattenförekomsten Askrikefjärden har fem tillfällen med djup 112 m ändrats till 11.2 m. Detta ska uppdateras i sharkweb till rätt djup.
+Vattenförekomst Vivassen har ett rapporterat mätdjup på 82.5 m 2017-06-12, detta är inte korrekt och kommer att rättas upp, men är i denna version ej rättad.
 
-Procent påverkat area beräknas och visas för att vattenförekomster och stationer, men ska endast användas för klassning i de vattenförekomster som specificeras i föreskriften (HVMFS 2013:19). Vilka vattenförekomster detta gäller och vilka stationer som använts visas nedan i tabell.
+Procent påverkad area beräknas och visas för alla stationer, men ska endast användas för klassning i de vattenförekomster som specificeras i föreskriften (HVMFS 2013:19). Vilka vattenförekomster detta gäller och vilka stationer som använts visas nedan i tabell.
 
 Typomr | MS_CD	| Vattenförekomst | Station | Vattenförekomst i HVMFS 2013:19
 ------ | ------ | --------------- | ------- | --------------------------------
