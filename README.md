@@ -1,10 +1,10 @@
 # ekostat_data
 ## Data
-Data är hämtade från datavärdskapet för Marina miljöövervakningsdata på [SMHI](www.smhi.se), [sharkweb](https://www.smhi.se/klimatdata/oceanografi/havsmiljodata/marina-miljoovervakningsdata). <br>Senaste uttaget gjordes 2019-03-15. De data som finns här används sedan för att beräkna status och osäkerhet vilket presenteras i WATERS gränssnitt för detta, http://3.120.131.94/ekostat/. <br>**De data som ligger till grund för nuvarande statusberäkningar i verktyget finns [**här**](https://github.com/ekostat/ekostat_data/tree/2c6bea7c0d762316a56919e5fa2bfa4a19ae3069).**<br> Inom kort finns beräkningar med de nya data tillgängliga i WATERS gränssnitt.
+Data är hämtade från datavärdskapet för Marina miljöövervakningsdata på [SMHI](www.smhi.se), [sharkweb](https://www.smhi.se/klimatdata/oceanografi/havsmiljodata/marina-miljoovervakningsdata). <br>Senaste uttaget gjordes 2019-03-15. De data som finns här används sedan för att beräkna status och osäkerhet vilket presenteras i WATERS gränssnitt för detta, http://3.120.131.94/ekostat/. 
 
 Uttaget från sharkweb har körts genom de första stegen i [ekostat_calculator](https://github.com/ekostat/ekostat_calculator) för att ta fram grunddata för beräkning av ekologiskstatus enligt bedömningsgrunderna för kustvatten i HVMFS 2013:19. 
 
-Filen WATERS_export.txt innehåller en punkt per mättillfälle för varje parameter och endast ifrån de månader som specificeras i HVMFS 2013:19 för respektive parameter. Mättillfälle identifieras genom kolumnan SAMPLE_ID. 
+Filen WATERS_export.txt innehåller en punkt per mättillfälle för varje parameter och endast ifrån de månader som specificeras i HVMFS 2013:19 för respektive parameter. Mättillfälle identifieras genom kolumnan SAMPLE_ID.
 
 #### Nytt
 I vissa vattenförekomster på västkusten vill man ta med stationer i intilliggande vattenförekomster i statusberäkningen. Detta är löst genom att data har duplicerats men fått vattenförekomst-ID (MS_CD) för den vattenförekomst som stationen ska inkluderas i. Därav finns en kolumn som heter WB_ID_original. Om det är något mer län där man behöver lägga till stationer från intilliggande vattenförekomster, kontakta Lena Viktorsson på SMHI.
