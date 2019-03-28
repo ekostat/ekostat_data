@@ -4,7 +4,7 @@ Data är hämtade från datavärdskapet för Marina miljöövervakningsdata på 
 
 Uttaget från sharkweb har körts genom de första stegen i [ekostat_calculator](https://github.com/ekostat/ekostat_calculator) för att ta fram grunddata för beräkning av ekologiskstatus enligt bedömningsgrunderna för kustvatten i HVMFS 2013:19. 
 
-Filen WATERS_export.txt innehåller en punkt per mättillfälle för varje parameter och endast ifrån de månader som specificeras i HVMFS 2013:19 för respektive parameter. Mättillfälle identifieras genom kolumnan SAMPLE_ID.
+Filen WATERS_export.txt innehåller en punkt per mättillfälle för varje parameter och endast ifrån de månader som specificeras i HVMFS 2013:19 för respektive parameter. Mättillfälle identifieras genom kolumnan SAMPLE_ID. Det enklaste sättet att ladda ner .txt-filen är att ladda ner hela den folder som ett .zip-paket, [direktlänk](https://github.com/ekostat/ekostat_data/archive/master.zip)
 
 #### Nytt
 I vissa vattenförekomster på västkusten vill man ta med stationer i intilliggande vattenförekomster i statusberäkningen. Detta är löst genom att data har duplicerats men fått vattenförekomst-ID (MS_CD) för den vattenförekomst som stationen ska inkluderas i. Därav finns en kolumn som heter WB_ID_original. Om det är något mer län där man behöver lägga till stationer från intilliggande vattenförekomster, kontakta Lena Viktorsson på SMHI.
