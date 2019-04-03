@@ -15,13 +15,13 @@ För varje datum plockas utifrån typområde och stationsdjup antingen ytvärde 
 **Ytvärde**
 *	som ytvärde räknas i första hand flaskdata <2m från flaskdata
 *	i andra hand tas data från slangprov med maxdjup <2m
-*	i tredje hand tas data data från den datatyp som har rapporterat data på minsta djup (<10 m). Detta ger kommentaren *Expert judgement not surface sample*.
+*	i tredje hand tas data data från den datatyp som har rapporterat data på minsta djup (<10 m). Detta ger kommentaren *Expert judgement. This is not true surface sample*.
 
 **Integrerat värde**:
 *	i första hand tas data från slangprovtagning mellan (0-1 m) – (9-11 m)
 *	i andra hand tas data från beräknat integrerat värde från flaskdata mellan (0-1 m) – (9-11 m)
 *	i tredje hand tas data från slangprovtagning med maxdjup <9 m. Detta ger kommentaren *Expert judgement. Integrated data to shallow.*
-* i fjärde hand tas flaskdata från det grundaste djup (<10 m) som det rapporterats på. Detta ger kommentaren *Expert judgement to shallow data from discrete sample.*
+* i fjärde hand tas flaskdata från det grundaste djup (<10 m) som det rapporterats på. Detta ger kommentaren *Expert judgement. Not integrated sample.*
 
 ### Syre
 Endast syre data från djupaste mätningen i varje profil tas med och endast data från djup som ligger max 10 ovanför max djup i vattenförekomsten. Maxdjupet hämtas från hypsografen för vattenförekomsten. Då hypsograferna inte alltid får med det faktiska maxdjupået så förekommer ibland mtädjup större än hypsografens maxdjup, dessa data kommer naturligtvis också med. 
